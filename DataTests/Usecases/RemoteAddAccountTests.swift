@@ -21,7 +21,6 @@ final class RemoteAddAccountTests: XCTestCase {
 }
 
 extension RemoteAddAccountTests {
-    
     func makeSut(url: URL = URL(string: "http://any-url.com")!) -> (sut: RemoteAddAccount, httpClientSpy: HttpClientSpy) {
         let httpClientSpy = HttpClientSpy()
         let sut = RemoteAddAccount(url: url, httpClient: httpClientSpy)
