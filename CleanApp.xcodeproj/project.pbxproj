@@ -18,6 +18,7 @@
 		F8F1B6E92A61C055007AA978 /* HttpPostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1B6E82A61C055007AA978 /* HttpPostClient.swift */; };
 		F8F1B6F12A61D9C2007AA978 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1B6F02A61D9C2007AA978 /* DomainError.swift */; };
 		F8F1B6F32A61DE69007AA978 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1B6F22A61DE69007AA978 /* HttpError.swift */; };
+		F8F1B6F72A624F58007AA978 /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1B6F62A624F58007AA978 /* Data+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F8F1B6E82A61C055007AA978 /* HttpPostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpPostClient.swift; sourceTree = "<group>"; };
 		F8F1B6F02A61D9C2007AA978 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
 		F8F1B6F22A61DE69007AA978 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		F8F1B6F62A624F58007AA978 /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		F861E3C52A606C7A0052AE3F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F8F1B6F42A624F3F007AA978 /* Helpers */,
 				F8F1B6ED2A61C0F0007AA978 /* Http */,
 				F8F1B6EC2A61C0E3007AA978 /* UseCases */,
 			);
@@ -195,6 +198,14 @@
 				F8F1B6F02A61D9C2007AA978 /* DomainError.swift */,
 			);
 			path = Errors;
+			sourceTree = "<group>";
+		};
+		F8F1B6F42A624F3F007AA978 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1B6F62A624F58007AA978 /* Data+.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +370,7 @@
 				F8F1B6E92A61C055007AA978 /* HttpPostClient.swift in Sources */,
 				F8F1B6F32A61DE69007AA978 /* HttpError.swift in Sources */,
 				F8F1B6E72A61C014007AA978 /* RemoteAddAccount.swift in Sources */,
+				F8F1B6F72A624F58007AA978 /* Data+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
